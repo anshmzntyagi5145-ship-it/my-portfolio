@@ -1,0 +1,104 @@
+/* Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f0fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+} /* Profile Card */
+.profile-card {
+  background-color: white;
+  width: 400px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+} /* Main Heading */
+h1 {
+  color: #1a237e;
+} /* Name */
+h2 {
+  color: #333;
+  margin-bottom: 5px;
+} /* Role */
+.role {
+  color: #666;
+  font-weight: bold;
+} /* Paragraph */
+p {
+  color: #555;
+} /* Skills */
+.skills {
+  margin: 20px 0;
+}
+
+.skill-badge {
+  display: inline-block;
+  color: white;
+  padding: 10px 16px;
+  margin: 6px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.skill-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* HTML Badge */
+.skill-badge.html {
+  background: linear-gradient(135deg, #e74c3c 0%, #e67e22 100%);
+}
+
+/* CSS Badge */
+.skill-badge.css {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+}
+
+/* JavaScript Badge */
+.skill-badge.javascript {
+  background: linear-gradient(135deg, #f1c40f 0%, #f39c12 100%);
+} /* Button */
+button {
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Message */
+#message {
+  color: #4caf50;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out forwards;
+}
+  font-size: 16px;
+} /* Button Hover */
+button:hover {
+  background-color: #3949ab;
+}
